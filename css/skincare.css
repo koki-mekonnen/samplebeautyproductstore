@@ -1,0 +1,277 @@
+body{
+  background-color: pink;
+    
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+.star  ion-icon {
+    font-size: 20px;
+    color: darkorange;
+    
+  }
+  .star{
+    padding-left: 50px;
+  }
+   a ion-icon{
+    font-size: 40px;
+    color:white;
+    padding-left: 70px;
+  }
+#header{
+    display:flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(14, 14, 58);
+    margin-left: 1px;
+  margin-top: 10px;
+  margin-right: 0px; 
+  z-index: 999;
+  position:sticky;
+  top:0;
+  left:0;
+  
+  
+  }
+  #header .nav{
+  padding-left:300px;
+  padding-right: 50px;
+  margin-left:60px;
+     margin-top: 10px;
+    margin-right: 0px;
+  
+  }  
+  #header img{
+    padding-left: 0px;
+    margin-left:0px;
+    padding-bottom: 15px;
+     margin-top: 10px;
+    margin-right: 0px;
+  
+  }
+  
+
+  .logo a{
+    text-decoration: none;
+    color:rgb(138, 34, 129);
+    font-size: 50px;
+}
+  .nav img{
+    padding-left: 10px;
+  }
+  #navbar{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  #navbar li{
+    list-style: none;
+    padding: 0 20px;
+    font-size: 15px;
+  position: relative;
+  
+     
+  }
+  #navbar li a{
+     text-decoration:none;
+     font-weight: 800;
+     color:white;
+  }
+  #navbar li a:hover,
+  #navbar li a .active{
+    color:yellow
+  
+  }
+   #navbar li a.active::after,  
+   #navbar li a:hover::after{
+       content:"";
+       width:30%;
+       height:2px;
+       background:white;
+       position: absolute;
+       bottom:-4px;
+       left:20px;
+   }
+body i{
+    color: black;
+}
+.skin h2{
+    display:flex;
+    align-items: center;
+    font-weight: 800;
+    font-size: 10px;
+    color:cornsilk;
+    font-style: oblique;
+    padding-right: 600px;
+    padding-top: 20px;
+    
+}
+.skin h5{
+    display:flex;
+    align-items: center;
+    font-weight: 800;
+    font-size: 40px;
+    color:cornsilk;
+    font-style: oblique;
+    padding-right: 600px;
+    padding-top: 20px;
+    
+}
+.s1{
+    color:white;
+}
+.mymoist h2{
+    color:white;
+    padding-top: 5px;
+    font-size: 30px;
+    
+}
+.mo1  img {
+    
+    border-radius:4px ;
+    border:1px solid red;
+
+    box-shadow: 10px 10px 34px rgba(0, 0, 0, 0.03);
+}
+.mo1 img:hover{
+    box-shadow: 50px 50px 70px rgba(70, 62, 221, 0.1);
+}
+.mo1 h3{
+    font-size: 20px;
+    color: white;
+    padding-left: 30px;
+    
+}
+.mo1 i{
+    color: darkorange;
+}
+mo2 i{
+    color: darkorange; 
+}
+.mo2{
+    padding-left: 400px;
+}
+.mo3{
+    padding-left: 1100px;  
+}
+.submo {
+    padding-left: 230px;
+    color:white;
+}
+.submo i{
+    color:darkorange;
+}
+.submo1{
+    padding-left: 130px;
+    color:white;
+}
+.submo1 i{
+    color: darkorange; 
+
+}
+.sun h2{
+    color:black;
+    padding-top: 5px;
+    font-size: 30px;
+}
+.s2{
+    color:white;
+}
+.su1{
+    padding-left: 1100px;
+}
+.su1 h2{
+    padding-left: 90px;
+}
+.su2{
+    padding-left: 500px;
+}
+.s3 h2{
+    font-size: 30px;
+}
+.s3{
+    color:black;
+    
+   padding-top: 30px;
+   padding-bottom: 70px;
+   font-style: italic;
+   padding-left: 200px;
+}
+.mymoist{
+    color:orange;
+    font-size: 30px;
+   padding-top: 30px;
+   padding-bottom: 70px;
+   font-style: italic;
+   padding-left: 50px;
+}
+.sun{
+    color:orange;
+    font-size: 30px;
+   
+   padding-bottom: 70px;
+   font-style: italic;
+   padding-left: 200px;
+}
+.side3 h4{
+    color:green;
+    font-size: 35px;
+   padding-top: 0px;
+   padding-bottom: 30px;
+   font-style: italic;
+   padding-left: 10px;
+}
+.si {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    color:whitesmoke;
+}
+.si h3{
+    padding-left: 30px;
+}
+.si h2{
+    padding-left: 70px;
+}
+.l1{
+    padding-top: 50px;
+    padding-left: 10px;
+}
+.l2{
+    padding-top: 50px;
+    padding-left: 10px;
+}
+
+.l3{
+    padding-top: 50px;
+    padding-left: 10px;
+}
+
+.sl1{
+    padding-top: 50px;
+}
+.sl2{
+    padding-top: 50px;
+}
+.sl3{
+    padding-top: 50px;
+}
+.sl3 h3{
+    padding-left: 80px;
+}
+
+.b1{
+    padding-top: 50px;
+}
+.b2{
+    padding-top: 50px;
+}
+.b3{
+    padding-top: 50px;
+}

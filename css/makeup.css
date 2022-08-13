@@ -1,0 +1,258 @@
+body {
+  background-color: white;
+
+}
+#header{
+  display:flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(14, 14, 58);
+  margin-left: 1px;
+margin-top: 10px;
+margin-right: 0px; 
+z-index: 999;
+position:sticky;
+top:0;
+left:0;
+
+
+}
+#header .nav{
+padding-left:300px;
+padding-right: 50px;
+margin-left:60px;
+   margin-top: 10px;
+  margin-right: 0px;
+
+}  
+#header img{
+  padding-left: 0px;
+  margin-left:0px;
+  padding-bottom: 15px;
+   margin-top: 10px;
+  margin-right: 0px;
+
+}
+.logo a{
+  text-decoration: none;
+  color:rgb(138, 34, 129);
+  font-size: 50px;
+}
+.nav img{
+  padding-left: 10px;
+}
+#navbar{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+#navbar li{
+  list-style: none;
+  padding: 0 20px;
+  font-size: 15px;
+position: relative;
+
+   
+}
+#navbar li a{
+   text-decoration:none;
+   font-weight: 800;
+   color:white;
+}
+#navbar li a:hover,
+#navbar li a .active{
+  color:yellow
+
+}
+ #navbar li a.active::after,  
+ #navbar li a:hover::after{
+     content:"";
+     width:30%;
+     height:2px;
+     background:white;
+     position: absolute;
+     bottom:-4px;
+     left:20px;
+ }
+ .star  ion-icon {
+  font-size: 20px;
+  color: darkorange;
+  
+}
+.star{
+  padding-left: 50px;
+}
+.all a ion-icon{
+  font-size: 40px;
+  color: black;
+  padding-left: 70px;
+}
+.p3 h2 {
+  padding-top: 70px;
+  padding-bottom: 90px;
+  display: flex;
+  align-items: center;
+  padding-left: 450px;
+  margin-top: 30px;
+  font-size: 30px;
+  color:darkgreen;
+}
+.p3 h4{
+  color:darkgreen;
+  font-style:oblique;
+  padding-left: 60px;
+}
+.a h2 {
+  padding-top: 15px;
+  padding-left: 300px;
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+}
+.a img {
+  padding-top: 15px;
+}
+.a{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.subeye{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+.subeye2{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.other{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.mac {
+  padding: 0 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  transition: 0.5s;
+}
+#c1 button{
+  padding-top: 10px;
+  font-size: 15px;
+  margin-left: 80px;
+  margin-top: 10px;
+}
+.mac2 img{
+  padding-left: 15px;
+  border-radius: 20%;
+  
+}
+ .mac2 :hover{
+border-radius: 30%;
+
+}
+.d1{
+  padding-left: 250px;
+}
+
+
+.d1 img{
+  border-radius: 10%;
+}
+.d1 :hover{
+  border-radius: 20%;
+}
+.sipo1 img{
+  border-radius: 20%;
+}
+.sipo1 :hover{
+  border-radius: 30%;
+}
+.sipo1{
+  padding-left: 300px;
+}
+
+
+.el{
+  padding-left: 100px;
+}
+.el img{
+  border-radius: 20%;
+}
+.el :hover{
+  border-radius: 30%;
+}
+
+.el h4{
+  padding-left: 50px;
+}
+.egli{
+  padding-left: 100px;
+  padding-top: 50px;
+}
+.egli img{
+  border-radius: 20%;
+}
+.egli :hover{
+  border-radius: 30%;
+}
+.egli h4{
+  padding-left: 50px;
+}
+.esha{
+  padding-right: 100px;
+}
+.esha img{ 
+  border-radius: 10%;
+}
+.esha :hover{
+  border-radius: 20%;
+}
+.esha{
+  padding-right: 100px;
+}
+.mascara{
+  padding-right: 100px;
+  padding-top: 30px;
+}
+.mascara img{
+  border-radius: 40%;
+}
+.mascara :hover{
+  border-radius: 50%;
+}
+.other h4{
+  
+  font-style: oblique;
+  
+  
+}
+.other h3{
+  padding-left: 90px;
+}
+.other img{
+  border-radius: 50%;
+}
+.other :hover{
+  border-radius: 20%;
+}
+.fou{
+  padding-left: 20px;
+}
+.bru h4{
+  padding-top: 60px;
+  padding-left: 60px;
+}
+.RE{
+  padding-right: 10px;
+}

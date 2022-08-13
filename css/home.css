@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins',sans-serif;
+}
+::selection{
+  color: #000;
+  background: #fff;
+}
+
+
+#header{
+    display:flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(14, 14, 58);
+    margin-left: 1px;
+  margin-top: 10px;
+  margin-right: 0px; 
+  z-index: 999;
+  position:sticky;
+  top:0;
+  left:0;
+  
+  
+  }
+
+
+
+#header .nav{
+    padding-left:600px;
+    padding-right: 50px;
+    margin-left:60px;
+    margin-right: 0px;
+    padding-top: 1px;
+    }  
+    #header img{
+      padding-left: 0px;
+      margin-left:0px;
+      padding-bottom: 1px;
+       margin-top: 10px;
+       padding-top: 0px;
+      margin-right: 0px;
+    
+    }
+    .logo a{
+        text-decoration: none;
+        color:rgb(138, 34, 129);
+        font-size: 50px;
+    }
+    .nav img{
+      padding-left: 10px;
+    }
+    #navbar{
+      display:flex;
+      align-items: center;
+      justify-content: center;
+      
+    }
+    #navbar li{
+      list-style: none;
+      padding: 0 20px;
+      font-size: 15px;
+    position: relative;
+    
+       
+    }
+    #navbar li a{
+       text-decoration:none;
+       font-weight: 800;
+       color:white;
+       padding-top: 10px;
+    }
+    #navbar li a:hover,
+    #navbar li a .active{
+      color:black
+    
+    }
+     #navbar li a.active::after,  
+     #navbar li a:hover::after{
+         content:"";
+         width:30%;
+         height:2px;
+         background:white;
+         position: absolute;
+         bottom:-4px;
+         left:20px;
+     }
+
+
+
+
+
+
+
+
+.menu ul li a:hover{
+  background: #fff;
+  color: black;
+  padding-bottom: 10px;
+}
+.img{
+  background: url('img/ba.jpg')no-repeat;
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.img::before{
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.4);
+}
+.center{
+  position: absolute;
+  top: 52%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  padding: 0 20px;
+  text-align: center;
+}
+.center .title{
+  color: #fff;
+  font-size: 55px;
+  font-weight: 600;
+  padding-top: 150px;
+  margin-bottom: 30px;
+}
+.center .sub_title{
+  color: #fff;
+  font-size: 52px;
+  font-weight: 600;
+  padding-top: 50px;
+  margin-bottom: 30px;
+}
+.center .btns{
+  margin-top: 20px;
+  padding-top: 50px;
+  margin-bottom: 30px;
+}
+.center .btns button{
+  height: 55px;
+  width: 170px;
+  border-radius: 5px;
+  border: none;
+  margin: 0 10px;
+  border: 2px solid white;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 0 10px;
+  cursor: pointer;
+  outline: none;
+  transition: all 0.3s ease;
+}
+.center .btns button:first-child{
+  color: #fff;
+  background: none;
+}
+.btns button:first-child:hover{
+  background: white;
+  color: black;
+}
+.center .btns button:last-child{
+  background: white;
+  color: black;
+}
+.btns a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+ #feature h2{
+padding-left: 400px;
+margin-top: 20px;
+padding-top: 200px;
+font-size: 60px;
+    align-items: center;
+    display: flex;
+    text-align: center;
+}
+
+.move {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+padding-top: 100px;
+ width:100%;
+ height:50vh;
+ background-size: cover;
+ background-position: top 25% right 0;
+ align-items: flex-start;
+ justify-content: center;
+padding-left: 20px;
+transition: 0.3s;
+    
+}
+#findus{
+  padding-top: 30px;
+}
+#con {
+  padding-top: 30px;
+  font-size: 25px;
+  font-style: italic;
+
+}
+#contacts{
+    background-color:lightpink;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    margin-top: 50px;
+}
+#contact{
+    padding-left: 30px;
+}
+#sec1{
+  padding-top: 50px;
+}
+.row {
+  display:flex;
+  align-items: center;
+    justify-content:space-around;
+    padding-top: 50px;
+}
+#copyright{
+    padding-top: 150px;
+    padding-left: 600px;
+    align-items: center;
+    justify-content: center;
+}
+#copyright a{
+ text-decoration: none;
+}

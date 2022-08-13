@@ -1,0 +1,149 @@
+body {
+  background-color: lightgoldenrodyellow;
+  
+ background-size: cover;
+ color:darkred;
+ padding-top: 4px;
+ font-size: 20px;
+}
+#header{
+    display:flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(14, 14, 58);
+    margin-left: 1px;
+  margin-top: 0px;
+  margin-right: 0px; 
+  z-index: 999;
+  position:sticky;
+  top:0;
+  left:0;
+  
+  
+  }
+  #header .nav{
+  padding-left:300px;
+  padding-right: 50px;
+  margin-left:60px;
+     margin-top: 10px;
+    margin-right: 0px;
+  
+  }  
+  #header img{
+    padding-left: 0px;
+    margin-left:0px;
+    padding-bottom: 15px;
+     margin-top: 10px;
+    margin-right: 0px;
+  
+  }
+  .logo a{
+    text-decoration: none;
+    color:rgb(138, 34, 129);
+    font-size: 50px;
+}
+  .nav img{
+    padding-left: 10px;
+  }
+  #navbar{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  #navbar li{
+    list-style: none;
+    padding: 0 20px;
+    font-size: 15px;
+  position: relative;
+  
+     
+  }
+  #navbar li a{
+     text-decoration:none;
+     font-weight: 1000;
+     color:white;
+  }
+  #navbar li a:hover,
+  #navbar li a .active{
+    color:yellow
+  
+  }
+   #navbar li a.active::after,  
+   #navbar li a:hover::after{
+       content:"";
+       width:30%;
+       height:2px;
+       background:white;
+       position: absolute;
+       bottom:-4px;
+       left:20px;
+   }
+   .star  ion-icon {
+    font-size: 20px;
+    color: darkorange;
+    
+  }
+  .star{
+    padding-left: 50px;
+  }
+   a ion-icon{
+    font-size: 40px;
+    color: black;
+    padding-left: 70px;
+  }
+.mp{
+    color:darkslateblue;
+    display: flex;
+    align-items: center;
+    color:black;
+    justify-content: space-between;
+}
+.mp1{
+    padding-left: 15px;
+    color:black}
+.mp1 h2{
+    padding-left: 30px;
+    font-style: oblique;
+}
+
+.mp2{
+    padding-top: 120px;
+    padding-left: 30px;
+}
+.mp2 h2{
+  font-style: oblique;
+    padding-left: 55px;
+}
+.mp3 {
+    margin-right: 0px;
+}
+.mp3 h2{
+    padding-left: 5px;
+    font-style: oblique;
+}
+.wa{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 80px;
+  color:black
+}
+.wa h3{
+  padding-left: 30px;
+}
+.wa h2{
+  padding-left: 100px;
+}
+.sha{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 80px;
+  color:black
+}
+.sha h3{
+  padding-left: 30px;
+}
+.sha h2{
+  padding-left: 100px;
+}

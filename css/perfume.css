@@ -1,0 +1,271 @@
+body{
+  background-color: white;
+    background-size: cover;
+}
+#header{
+    display:flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(14, 14, 58);
+    margin-left: 1px;
+  margin-top: 10px;
+  margin-right: 0px; 
+  z-index: 999;
+  position:sticky;
+  top:0;
+  left:0;
+}
+  .logo a{
+    text-decoration: none;
+    color:rgb(138, 34, 129);
+    font-size: 50px;
+}
+  
+  #header .nav{
+  padding-left:300px;
+  padding-right: 50px;
+  margin-left:60px;
+     margin-top: 10px;
+    margin-right: 0px;
+  
+  }  
+  #header img{
+    padding-left: 0px;
+    margin-left:0px;
+    padding-bottom: 15px;
+     margin-top: 10px;
+    margin-right: 0px;
+  
+  }
+  
+  .nav img{
+    padding-left: 10px;
+  }
+  #navbar{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  #navbar li{
+    list-style: none;
+    padding: 0 20px;
+    font-size: 15px;
+  position: relative;
+  
+     
+  }
+  #navbar li a{
+     text-decoration:none;
+     font-weight: 800;
+     color:white;
+  }
+  #navbar li a:hover,
+  #navbar li a .active{
+    color:yellow
+  
+  }
+   #navbar li a.active::after,  
+   #navbar li a:hover::after{
+       content:"";
+       width:30%;
+       height:2px;
+       background:white;
+       position: absolute;
+       bottom:-4px;
+       left:20px;
+   }
+   .star  ion-icon {
+    font-size: 20px;
+    color: darkorange;
+    
+  }
+  
+   
+body h2{
+    display:flex;
+    align-items: center;
+    font-weight: 800;
+    font-size: 40px;
+    color:chocolate;
+    font-style: oblique;
+    padding-right: 800px;
+    padding-top: 50px;
+}
+.per1{
+    display:flex;
+    align-items:center;
+    justify-content: space-between; 
+}
+.per2{
+    display:flex;
+    align-items:center;
+    justify-content: space-between; 
+}
+.p1{
+    padding-left: 100px;
+
+}
+.p1 star  ion-icon {
+  font-size: 20px;
+  color: darkorange;
+}
+.p1 a ion-icon{
+  font-size: 40px;
+  color: black;
+  padding-left: 70px;
+}
+.p2 star  ion-icon {
+  font-size: 20px;
+  color: darkorange;
+  padding-left:px ;
+}
+.p2 a ion-icon{
+  font-size: 40px;
+  color: black;
+  padding-left: 150px;
+}
+.p3 star  ion-icon {
+  font-size: 20px;
+  color: darkorange;
+}
+.p3 a ion-icon{
+  font-size: 40px;
+  color: black;
+  padding-left: 70px;
+}
+.p4 star  ion-icon {
+  font-size: 20px;
+  color: darkorange;
+}
+.p4 a ion-icon{
+  font-size: 40px;
+  color: black;
+  padding-left: 150px;
+}
+.p4 .star{
+  padding-left: 120px;
+}
+.p5 star  ion-icon {
+  font-size: 20px;
+  color: darkorange;
+}
+.p5 a ion-icon{
+  font-size: 40px;
+  color: black;
+  padding-left: 750px;
+}
+.p1 img{
+    border-radius: 20%;
+  }
+  .p1 :hover{
+    border-radius: 30%;
+  }
+.p1 p{
+    display:flex;
+    align-items:center;  
+    font-style: italic;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.p1 h3{
+    padding-left: 80px;
+}
+.p3{
+    padding-left: 100px;
+ padding-top: 100px;
+}
+.p3 img{
+    border-radius: 20%;
+  }
+  .p3 :hover{
+    border-radius: 30%;
+  }
+.p3 p{
+    display:flex;
+    align-items:center;  
+    font-style: italic;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.p3 h3{
+    padding-left: 80px;
+}
+.p2  .star{
+  padding-left: 120px;
+  
+}
+.p2 img{
+    padding-right: 100px;
+
+}
+.p2 img{
+    border-radius: 20%;
+  }
+  .p2 :hover{
+    border-radius: 30%;
+  }
+.p2 p{
+    font-style: italic;
+    font-size: 20px;
+    padding-left: 150px;
+    font-weight: bolder;
+}
+.p2 h3{
+    padding-left: 150px;
+}
+.p4 img{
+    padding-top: 100px;
+
+    padding-right: 100px;
+
+}.p4 img{
+    border-radius: 20%;
+  }
+  .p4 :hover{
+    border-radius: 25%;
+  }
+.p4 p{
+    font-style: italic;
+    font-size: 20px;
+    padding-left: 150px;
+    font-weight: bolder;
+}
+.p4 h3{
+    padding-left: 150px;
+}
+.p5  .star{
+  padding-left: 700px;
+  
+}
+.p5 img{
+    padding-top: 50px;
+   padding-left: 600px;
+
+}
+.p5 img{
+  animation:imgAnimate 0.5s infinite alternate;
+}
+@keyframes imgAnimate {
+    0% {transform: translate(0px,20px)};
+    100%{transform:(0px,-20px)};
+}
+  
+.p5 p{
+    font-style: italic;
+    font-size: 20px;
+    padding-left: 750px;
+    font-weight: bolder;
+}
+
+.p5 h3{
+    padding-left: 750px;
+}
+.new{
+    padding-top: 20px;
+    font-size: 45px;
+    color:darkblue;
+    font-style:oblique;
+    padding-left: 450px;
+}
